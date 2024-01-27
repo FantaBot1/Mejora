@@ -279,7 +279,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   }
 };
 handler.command = /^(menu)$/i;
-handler.register = true
 handler.exp = 50;
 handler.fail = null;
 export default handler;
